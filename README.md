@@ -1,7 +1,7 @@
 
-# Ant Design Dashboard
+# React Dashboard
 
-This is a simple Dashboard using Ant Design, React and Redux
+This is a simple Dashboard using React, Redux and Ant Design.
 
 <img align="left" src="https://github.com/Dmitry-Shmelev/react-dashboard/blob/master/react-redux-ant.png">
 
