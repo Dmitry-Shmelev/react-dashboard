@@ -1,0 +1,49 @@
+{
+  "name": "dashboard-react-redux-ant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "http://shayanypn.github.io/dashboard-react-redux-ant",
+  "scripts": {
+    "start": "webpack-dev-server --port 4600",
+    "build": "webpack --optimize-minimize",
+    "predeploy": "webpack --optimize-minimize",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "antd": "^3.5.1",
+    "axios": "^0.17.1",
+    "chart.js": "^2.7.2",
+    "css-loader": "^0.28.5",
+    "file-loader": "^1.1.6",
+    "hoek": "^5.0.3",
+    "html-webpack-plugin": "^2.30.1",
+    "jquery": "^3.3.1",
+    "moment": "^2.21.0",
+    "node-sass": "^4.7.2",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-calendar": "^2.13.1",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^15.6.1",
+    "react-moment": "^0.7.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-toastr": "^3.0.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "gh-pages": "^1.2.0"
+  }
+}

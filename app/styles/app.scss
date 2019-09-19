@@ -1,0 +1,151 @@
+@icon-url: "../assets/iconfont"
+
+@import url("_variable");
+
+html {}
+html body {}
+
+.padding-30{
+	padding: 30px;
+}
+.text-center{
+	text-align: center;
+}
+.margin-bottom{
+	margin-bottom: 10px;
+}
+
+
+
+.ant-menu{background: transparent;border:none;}
+
+.body {
+	background: #e0e3ee;
+	padding: 20px 30px;
+	width: 100%;
+	min-height: 100vh;
+}
+.container{
+	background: #f5f6fa;
+	border: 1px solid #A9B1CE;
+	box-shadow: 0 0 10px #A9B1CE;
+	border-radius: 6px;
+	position: relative;
+	> .ant-row{
+		min-height: calc( 100vh - 80px );
+		display: flex;
+		align-items: stretch;
+	}
+}
+.aside{
+	background: #ffffff;
+	height: 100%;
+	border-radius: 6px 0 0 6px;
+	border-right: 1px solid #e7e8ed;
+	min-width: 100% !important;
+	max-width: 100% !important;
+	width: 100% !important;
+	.logo{
+		background: #4880ff;
+		padding: 30px;
+		border-radius: 6px 0 0 0;
+	}
+	.anticon{
+		&:before{
+			color: #777;
+		}
+	}
+	.ant-menu-inline-collapsed{
+		width: 100% !important;
+	}
+	.ant-menu{
+		.ant-menu-item{
+			margin: 0px;
+			padding: 14px 14px !important;
+			height: auto;
+			text-align: center;
+		}
+	}
+}
+.main-content{
+	padding: 14px 20px 18px 5px !important;
+	> .ant-row{
+		margin-bottom: 10px;
+	}
+}
+
+
+
+/**
+ * CARD
+ */
+.ant-card{
+	border-radius: 6px;
+	&.nopadding{
+		.ant-card-body{
+			padding: 0px;
+		}
+	}
+	.ant-card-body{
+		padding: 15px;
+	}
+	.ant-card-actions{
+		border-radius: 0 0 5px 5px;
+		> li{
+			margin: 2px 0px;
+		}
+	}
+	&.primary{
+		background: #4880ff;
+		border: 1px solid #4880ff;
+	}
+	&.dark{
+		background: #6c7185;
+		border-color: #6c7185;
+	}
+}
+
+/**
+ * Button
+ */
+.btn-orange{
+	background: #ffc500;
+	border-color: #ffc500;
+	&:hover{
+		background: #F2BD0A;
+		border-color: #F2BD0A;
+	}
+}
+
+
+/**
+ * Table
+ */
+.ant-table-thead > tr > th {
+    padding: 4px 16px;
+}
+.ant-table-tbody > tr > td {
+    padding: 8px 16px;
+}
+.circle-status{
+    padding: 0px 7px;
+    height: 0px;
+    border-radius: 50%;
+    line-height: 5px;
+    font-size: 10px;
+}
+
+
+/**
+ * Timeline
+ */
+.ant-timeline-item{
+	padding: 0px;
+}
+
+
+
+
+
+
+
